@@ -1,0 +1,60 @@
+.hotOffers {
+    margin: 30px 0px 30px 0;
+    height: 800px;
+    border-right: 2px solid #858484;
+    overflow: auto;
+    position: sticky;
+    top: 7em;
+    /* position: fixed; */
+}
+
+.hotOffers::-webkit-scrollbar {
+    width: 0;
+}
+
+.hotOffer {
+    width: 200px;
+    height: 200px;
+    background-color: #a7a7a7;
+    margin: 15px auto 15px auto;
+}
+
+.offers {
+    margin: 30px 0px 30px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.offer {
+    width: 200px;
+    height: 200px;
+    background-color: #a7a7a7;
+    margin: 20px 20px 20px 20px;
+}
+
+.logoWord {
+    border-bottom: 3px solid #424242;
+    text-align: justify;
+}
+
+.butt {
+    height: inherit;
+    border-radius: 0;
+    background-color: #e2e2e2;
+    width: 100%;
+}
+
+.butt-group {
+    height: inherit;
+}
+
+@media (max-width: 991px) {
+    .hotOffers {
+        /* visibility: hidden; */
+        position: inherit;
+        height: 300px;
+    }
+    .offer {
+        margin: 15px auto 15px auto;
+    }
+}
